@@ -5,3 +5,9 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 #main-footer{
     margin-top: 150px;
 }
+
+@media (min-width: 576px) and (max-width: 704px){
+    .md-display{
+        display: none !important;
+    }
+}

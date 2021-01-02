@@ -64,26 +64,28 @@
             </ul>
 
             <!--Barra de busqueda-->
-            <form action="" class="form-inline my-2 my-lg-0 ml-auto">
+            <form action="" class="d-none d-lg-flex my-2 my-lg-0 ml-auto md-display">
                 <input type="search" class="form-control mr-sm-2" placeholder="Buscar" aria-label="Search">
                 <button class="btn btn-primary my-2 my-sm-0"><i class="fas fa-search"></i></button>
             </form>
 
             <!--Bienvenida y cuenta-->
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown mr-3">
-                    <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">
-                        <i class="fas fa-user"></i> Bienvenida Iara</a>
-
-                        <div class="dropdown-menu">
-                            <a href="perfil.html" class="dropdown-item"><i class="fas fa-user-circle"></i> Perfil</a>
-                            <a href="#" class="dropdown-item"><i class="fas fa-cog"></i> Configuracion</a>
-                        </div>
-                </li>
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link"><i class="fas fa-user-times"></i> Salir</a>
-                </li>
-            </ul>
+            <div class="d-flex md-display">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown mr-3">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                            <i class="fas fa-user"></i> Bienvenido</a>
+    
+                            <div class="dropdown-menu">
+                                <a href="perfil.html" class="dropdown-item"><i class="fas fa-user-circle"></i> Perfil</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-cog"></i> Configuracion</a>
+                            </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link"><i class="fas fa-user-times"></i> Salir</a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
       </nav>
@@ -187,11 +189,11 @@
 
 
       <!--Footer-->
-      <footer id="main-footer" class="bg-dark text-white mb-5 p-5">
+      <footer id="main-footer" class="bg-dark text-white p-3">
           <div class="container">
               <div class="row">
                   <div class="col">
-                      <p class="lead text-center">
+                      <p class="lead text-center m-0">
                           2020 - Todos los derechos &copy;
                           <span>weTecno</span>
                       </p>
